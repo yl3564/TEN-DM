@@ -31,7 +31,3 @@ python run.py --dataset $dataset --timesteps $timesteps --samplingsteps $samplin
 The trained models are saved in ``ModelSave/``.  
 The logs are saved in ``logs/``.  
 The test results are saved in ``ModelResult/``.
-
-
-
-python run.py --dataset 311Service --timesteps 200 --samplingsteps 200 --batch_size 64 --total_epochs 100 --loss_type l2
