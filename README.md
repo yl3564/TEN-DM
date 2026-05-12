@@ -12,7 +12,7 @@ This repo contrains the code for our paper TEN-DM: Topology-Enhanced Diffusion M
 2. Use the ``pip install -r requirements. txt`` command to install all of the Python modules and packages used in this project.
 
 ## Model Training
-Data should be one of JP_Earthquake|COVID19|Thefts|311Service|US_Earthquake|Human_mobility|Wildfire|Twitter.  
+Data should be one of JP_Earthquake|COVID19|Thefts|311Service|US_Earthquake|.  
 Use the following command to train TEN-DM:   
 ```
 python run.py --dataset $dataset

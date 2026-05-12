@@ -54,7 +54,7 @@ def get_args():
     parser.add_argument('--loss_type', type=str, default='l2',choices=['l1','l2','Euclid'], help='')
     parser.add_argument('--beta_schedule', type=str, default='cosine',choices=['linear','cosine'], help='')
     parser.add_argument('--dim', type=int, default=2, help='', choices = [1,2,3])
-    parser.add_argument('--dataset', type=str, default='JP_Earthquake',choices=['JP_Earthquake','COVID19','Thefts','311Service','US_Earthquake','Human_mobility','Wildfire','Twitter'], help='')
+    parser.add_argument('--dataset', type=str, default='JP_Earthquake',choices=['JP_Earthquake','COVID19','Thefts','311Service','US_Earthquake'], help='')
     parser.add_argument('--batch_size', type=int, default=64,help='')
     parser.add_argument('--timesteps', type=int, default=100, help='')
     parser.add_argument('--samplingsteps', type=int, default=100, help='')
